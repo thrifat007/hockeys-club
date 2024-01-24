@@ -1,0 +1,88 @@
+.font-manrope {
+  font-family: "Manrope", sans-serif;
+}
+
+.primary-color {
+  color: #131318;
+}
+
+.bg-primary-color {
+  background-color: #131318;
+}
+
+.secondary-color {
+  color: rgba(19, 19, 24, 0.6);
+}
+
+.tertiary-color {
+  color: #ff4240;
+}
+
+.menu-color {
+  color: #424247;
+}
+
+.bg-tertiary-color {
+  background-color: #ff4240;
+}
+
+.footer-title-color {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.test {
+  border: 1px solid red;
+  background-image: url("/images/2.png");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: cover;
+}
+
+/* Contact Section Bg */
+
+.phone-bg {
+  background-color: rgba(188, 237, 109, 0.1);
+  border-radius: 16px;
+}
+
+.email-bg {
+  border-radius: 16px;
+  background-color: rgba(253, 221, 95, 0.1);
+}
+
+.location-bg {
+  border-radius: 16px;
+  background-color: rgba(98, 156, 243, 0.1);
+}
+
+.input-style {
+  border-radius: 12px;
+  background-color: rgba(19, 19, 24, 0.03);
+}
+
+.social-bg {
+  border-radius: 12px;
+  background: rgba(19, 19, 24, 0.03);
+}
+
+.footer-bg {
+  background-color: #131318;
+}
+
+/* Progress Section Color */
+
+.first-progress {
+  color: #ff4240;
+}
+
+.second-progress {
+  color: #49d293;
+}
+
+.third-progress {
+  color: #ffb546;
+}
+
+.fourth-progress {
+  color: #4c8df1;
+}

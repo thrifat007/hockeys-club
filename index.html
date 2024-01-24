@@ -6,7 +6,7 @@
     <title>Hockeys Club</title>
 
     <!-- Favicon -->
-
+    <link rel="shortcut icon" href="Images/icon.png" type="image/x-icon" />
     <!-- Tailwind Css & Daisy Ui CDN -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
@@ -14,6 +14,9 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Custom Css link -->
+    <link rel="stylesheet" href="style.css" />
     <!-- Google Font Link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -28,5 +31,114 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body></body>
+  <body class="font-manrope">
+    <header>
+ <!-- Nav Bar Section Start Here -->
+ <nav class="container mx-auto mt-12 mx-auto w-full sm:w-4/5 lg:w-11/12 xl:w-11/12">
+    <div class="navbar bg-base-100">
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </div>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li class="text-base font-normal tertiary-color"><a>Home</a></li>
+            <li class="text-base font-normal menu-color"><a>About</a></li>
+            <li class="text-base font-normal menu-color"><a>Pages</a></li>
+            <li class="text-base font-normal menu-color"><a>Blog</a></li>
+            <li class="text-base font-normal menu-color"><a>Contact</a></li>
+          </ul>
+        </div>
+        <h3 class="primary-color text-2xl md:text-4xl lg:text-4xl font-extrabold">Hockey<span
+            class="tertiary-color">’</span>s</h3>
+      </div>
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li class="text-base font-normal tertiary-color"><a>Home</a></li>
+          <li class="text-base font-normal menu-color ml-10"><a>About</a></li>
+          <li class="text-base font-normal menu-color ml-10"><a>Pages</a></li>
+          <li class="text-base font-normal menu-color ml-10"><a>Blog</a></li>
+          <li class="text-base font-normal menu-color ml-10"><a>Contact</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <div class="hidden sm:block md:hidden search-icon mr-6">
+          
+            <g clip-path="url(#clip0_5_6)">
+              <path
+                d="M3 10C3 10.9193 3.18106 11.8295 3.53284 12.6788C3.88463 13.5281 4.40024 14.2997 5.05025 14.9497C5.70026 15.5998 6.47194 16.1154 7.32122 16.4672C8.1705 16.8189 9.08075 17 10 17C10.9193 17 11.8295 16.8189 12.6788 16.4672C13.5281 16.1154 14.2997 15.5998 14.9497 14.9497C15.5998 14.2997 16.1154 13.5281 16.4672 12.6788C16.8189 11.8295 17 10.9193 17 10C17 9.08075 16.8189 8.1705 16.4672 7.32122C16.1154 6.47194 15.5998 5.70026 14.9497 5.05025C14.2997 4.40024 13.5281 3.88463 12.6788 3.53284C11.8295 3.18106 10.9193 3 10 3C9.08075 3 8.1705 3.18106 7.32122 3.53284C6.47194 3.88463 5.70026 4.40024 5.05025 5.05025C4.40024 5.70026 3.88463 6.47194 3.53284 7.32122C3.18106 8.1705 3 9.08075 3 10Z"
+                stroke="#89898B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M21 21L15 15" stroke="#89898B" stroke-width="1.5" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </g>
+            <defs>
+              <clipPath id="clip0_5_6">
+                <rect width="24" height="24" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+        <div class="hidden sm:block md:block mr-6"><i class="secondary-color text-xl fa-solid fa-magnifying-glass"></i></div>
+        <a class="btn btn-error text-white font-bold bg-tertiary-color text-base sm:text-base lg:text-lg ">Get
+          Ticket</a>
+      </div>
+    </div>
+  </nav>
+  <!-- Nav Bar Section End Here -->
+
+  <!-- Banner Section Start Here -->
+  <section class="container mx-auto w-11/12 sm:w-4/5 lg:w-11/12 xl:w-11/12 banner mt-12 lg:relative">
+    <!-- bg carousel -->
+    <div class="bg-carousel">
+      <div class="carousel w-full">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="images/1.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="images/slider.png" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="images/slider 03.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="images/slider 02.jpg" class="w-full" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- carousel title -->
+    <div
+      class="mt-4 carousel-title p-4 sm:p-4 md:p-6 lg:p-8 rounded-2xl w-full sm:w-full md:w-full lg:w-fit bg-primary-color lg:absolute lg:bottom-8 lg:right-8">
+      <h2 class="pb-4 text-sm sm:text-base md:text-xl lg:text-2xl font-extrabold text-white">Meet all the Trophies from
+        the field</h2>
+      <p class="text-xs sm:text-xs md:text-base lg:text-base font-medium text-slate-300">Experience the pinnacle of hockey excellence with our club, where passion meets skill, forging unforgettable moments on the ice.</p>
+    </div>
+  </section>
+  <!-- Banner Section End Here -->
+    </header>
+    <main>
+
+    </main>
+    <footer>
+        
+    </footer>
+  </body>
 </html>
