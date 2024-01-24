@@ -32,7 +32,7 @@
 
 .test {
   border: 1px solid red;
-  background-image: url("/images/2.png");
+  background-image: url("/Images/2.png");
   background-repeat: no-repeat;
   object-fit: cover;
   background-size: cover;
